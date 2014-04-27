@@ -1,5 +1,10 @@
 <?php
 
+/* Wordpress Admin Custom Field Filter 
+ * @version 1.0 (2014/04/27)
+ * @author hadoanngoc@gmail.com
+ * @license GPL
+ */
 if(!class_exists('Admin_Custom_Field_Filter')){
 	class Admin_Custom_Field_Filter{
 		/**
