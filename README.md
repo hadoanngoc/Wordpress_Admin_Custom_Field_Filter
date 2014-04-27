@@ -7,7 +7,7 @@ Usage
 ===================================
 To add a select-box filter to any Post Type/Custom Post Type listing page, just create new object
 
-  new Tax_CTP_Filter(array('CUSTOM-POST-TYPE' => array('CUSTOM-FIELD-1','CUSTOM-FIELD-2')));
+  new Admin_Custom_Field_Filter(array('CUSTOM-POST-TYPE' => array('CUSTOM-FIELD-1','CUSTOM-FIELD-2')));
 
 in which, 'CUSTOM-POST-TYPE' is the name of the post type/custom post type you want to add
           'CUSTOM-FIELD-1', 'CUSTOM-FIELD-2' are the names of the custom fields you want to filter by. Add many custom fields as you want, each item will add new select-box
