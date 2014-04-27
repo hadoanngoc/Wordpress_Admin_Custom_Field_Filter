@@ -97,7 +97,7 @@ if(!class_exists('Admin_Custom_Field_Filter')){
 						
 						$custom_field = substr($key, 6);
 						$qv['meta_query'][] = array(
-							'field' => 'store_id',
+							'field' => $custom_field,
 							'value' => $val,
 							'compare' => '='
 						);
