@@ -110,4 +110,4 @@ if(!class_exists('Admin_Custom_Field_Filter')){
 
 
 // Usage:
-// new Tax_CTP_Filter(array('CUSTOM-POST-TYPE' => array('CUSTOM-FIELD-1','CUSTOM-FIELD-2')));
+// new Admin_Custom_Field_Filter(array('CUSTOM-POST-TYPE' => array('CUSTOM-FIELD-1','CUSTOM-FIELD-2')));
